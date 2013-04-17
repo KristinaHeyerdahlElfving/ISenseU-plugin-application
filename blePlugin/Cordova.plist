@@ -24,6 +24,8 @@
 	<array/>
 	<key>Plugins</key>
 	<dict>
+		<key>org.test.kristina.blePlugin</key>
+		<string>blePluginClass</string>
 		<key>Logger</key>
 		<string>CDVLogger</string>
 		<key>Compass</key>

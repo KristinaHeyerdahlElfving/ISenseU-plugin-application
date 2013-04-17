@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78C769FA16F76FDB0028DD99 /* bleDeviceControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C769F916F76FDB0028DD99 /* bleDeviceControl.m */; };
+		78C769FB16F7BB710028DD99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5F7FA16F366440055188E /* main.m */; };
+		78C769FC16F7BB7D0028DD99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5F82216F366440055188E /* AppDelegate.m */; };
+		78C769FD16F7BB870028DD99 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5F82516F366440055188E /* MainViewController.m */; };
+		78C769FE16F7BB930028DD99 /* blePluginClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5F83B16F382F90055188E /* blePluginClass.m */; };
+		78C769FF16F7BB9A0028DD99 /* bleConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5F83E16F39D9E0055188E /* bleConnect.m */; };
+		78C76A0016F7BBA70028DD99 /* bleDeviceControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C769F916F76FDB0028DD99 /* bleDeviceControl.m */; };
+		78C76A0116F7BCC60028DD99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5F7DC16F366430055188E /* UIKit.framework */; };
+		78C76A0216F7BCD40028DD99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5F7DA16F366430055188E /* Foundation.framework */; };
 		78D5F7DB16F366430055188E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5F7DA16F366430055188E /* Foundation.framework */; };
 		78D5F7DD16F366430055188E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5F7DC16F366430055188E /* UIKit.framework */; };
 		78D5F7DF16F366430055188E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5F7DE16F366430055188E /* CoreGraphics.framework */; };
@@ -37,9 +46,17 @@
 		78D5F82316F366440055188E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5F82216F366440055188E /* AppDelegate.m */; };
 		78D5F82616F366440055188E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5F82516F366440055188E /* MainViewController.m */; };
 		78D5F82816F366440055188E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D5F82716F366440055188E /* MainViewController.xib */; };
+		78D5F83216F366790055188E /* www in Resources */ = {isa = PBXBuildFile; fileRef = 78D5F83116F366790055188E /* www */; };
+		78D5F83416F366900055188E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D5F83316F366900055188E /* Default-568h@2x.png */; };
+		78D5F83C16F382F90055188E /* blePluginClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5F83B16F382F90055188E /* blePluginClass.m */; };
+		78D5F83F16F39D9E0055188E /* bleConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5F83E16F39D9E0055188E /* bleConnect.m */; };
+		78D5F84116F39E0B0055188E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5F84016F39E0B0055188E /* CoreBluetooth.framework */; };
+		78D5F84216F3F0E10055188E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5F84016F39E0B0055188E /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78C769F816F76FDB0028DD99 /* bleDeviceControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bleDeviceControl.h; path = Plugins/bleDeviceControl.h; sourceTree = "<group>"; };
+		78C769F916F76FDB0028DD99 /* bleDeviceControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = bleDeviceControl.m; path = Plugins/bleDeviceControl.m; sourceTree = "<group>"; };
 		78D5F7D716F366430055188E /* blePlugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blePlugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D5F7DA16F366430055188E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78D5F7DC16F366430055188E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -77,6 +94,14 @@
 		78D5F82716F366440055188E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
 		78D5F82A16F366440055188E /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		78D5F82B16F366440055188E /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		78D5F83116F366790055188E /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		78D5F83316F366900055188E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		78D5F83516F381C50055188E /* pluginFile.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = pluginFile.js; path = www/pluginFile.js; sourceTree = "<group>"; };
+		78D5F83A16F382F90055188E /* blePluginClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = blePluginClass.h; path = Plugins/blePluginClass.h; sourceTree = "<group>"; };
+		78D5F83B16F382F90055188E /* blePluginClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = blePluginClass.m; path = Plugins/blePluginClass.m; sourceTree = "<group>"; };
+		78D5F83D16F39D970055188E /* bleConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bleConnect.h; path = Plugins/bleConnect.h; sourceTree = "<group>"; };
+		78D5F83E16F39D9E0055188E /* bleConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = bleConnect.m; path = Plugins/bleConnect.m; sourceTree = "<group>"; };
+		78D5F84016F39E0B0055188E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78D5F84216F3F0E10055188E /* CoreBluetooth.framework in Frameworks */,
 				78D5F7DB16F366430055188E /* Foundation.framework in Frameworks */,
 				78D5F7DD16F366430055188E /* UIKit.framework in Frameworks */,
 				78D5F7DF16F366430055188E /* CoreGraphics.framework in Frameworks */,
@@ -105,6 +131,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C76A0216F7BCD40028DD99 /* Foundation.framework in Frameworks */,
+				78C76A0116F7BCC60028DD99 /* UIKit.framework in Frameworks */,
+				78D5F84116F39E0B0055188E /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +143,10 @@
 		78D5F7CB16F366430055188E = {
 			isa = PBXGroup;
 			children = (
+				78D5F84016F39E0B0055188E /* CoreBluetooth.framework */,
+				78D5F83516F381C50055188E /* pluginFile.js */,
+				78D5F83316F366900055188E /* Default-568h@2x.png */,
+				78D5F83116F366790055188E /* www */,
 				78D5F7F416F366440055188E /* blePlugin */,
 				78D5F7D916F366430055188E /* Frameworks */,
 				78D5F7D816F366430055188E /* Products */,
@@ -254,6 +287,12 @@
 			isa = PBXGroup;
 			children = (
 				78D5F82A16F366440055188E /* README */,
+				78D5F83A16F382F90055188E /* blePluginClass.h */,
+				78D5F83B16F382F90055188E /* blePluginClass.m */,
+				78D5F83D16F39D970055188E /* bleConnect.h */,
+				78D5F83E16F39D9E0055188E /* bleConnect.m */,
+				78C769F816F76FDB0028DD99 /* bleDeviceControl.h */,
+				78C769F916F76FDB0028DD99 /* bleDeviceControl.m */,
 			);
 			name = Plugins;
 			sourceTree = "<group>";
@@ -328,6 +367,8 @@
 				78D5F81D16F366440055188E /* Capture.bundle in Resources */,
 				78D5F81F16F366440055188E /* Cordova.plist in Resources */,
 				78D5F82816F366440055188E /* MainViewController.xib in Resources */,
+				78D5F83216F366790055188E /* www in Resources */,
+				78D5F83416F366900055188E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +398,9 @@
 				78D5F7FB16F366440055188E /* main.m in Sources */,
 				78D5F82316F366440055188E /* AppDelegate.m in Sources */,
 				78D5F82616F366440055188E /* MainViewController.m in Sources */,
+				78D5F83C16F382F90055188E /* blePluginClass.m in Sources */,
+				78D5F83F16F39D9E0055188E /* bleConnect.m in Sources */,
+				78C769FA16F76FDB0028DD99 /* bleDeviceControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +408,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C76A0016F7BBA70028DD99 /* bleDeviceControl.m in Sources */,
+				78C769FF16F7BB9A0028DD99 /* bleConnect.m in Sources */,
+				78C769FE16F7BB930028DD99 /* blePluginClass.m in Sources */,
+				78C769FD16F7BB870028DD99 /* MainViewController.m in Sources */,
+				78C769FC16F7BB7D0028DD99 /* AppDelegate.m in Sources */,
+				78C769FB16F7BB710028DD99 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -490,6 +541,7 @@
 					"CORDOVA_FRAMEWORK=1",
 				);
 				INFOPLIST_FILE = "blePlugin/blePlugin-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -501,6 +553,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=*]" = "armv7 armv6s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -509,6 +562,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
@@ -519,6 +573,7 @@
 					"CORDOVA_FRAMEWORK=1",
 				);
 				INFOPLIST_FILE = "blePlugin/blePlugin-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -531,6 +586,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=*]" = "armv6 armv6s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -554,6 +610,7 @@
 				78D5F83016F366440055188E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
